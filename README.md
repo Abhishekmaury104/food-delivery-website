@@ -1,6 +1,13 @@
 # Food Delivery Software
 
-Simple PHP/MySQL food-ordering system with shop registration, customer sign-up/login, menu, cart, order placement and admin dashboard.
+Simple PHP, MySQL food-ordering system with shop registration, customer sign-up/login, menu, cart, order placement and admin dashboard.
+
+## Screenshots 
+
+![H](screenshots/home.png)
+![S](screenshots/menu.png)
+![B](screenshots/about.png)
+![C](screenshots/orders.png)
 
 ## Important Files
 - User-facing entry: [index.php](index.php)  
@@ -42,5 +49,4 @@ https://github.com/Abhishekmaury104/food-delivery-website.git
    - Update SMTP credentials in [floating-login-signup/partials/signUp.php](floating-login-signup/partials/signUp.php). It currently uses included PHPMailer files ([phpmailer1/PHPMailer.php](phpmailer1/PHPMailer.php)).
    - Remove hard-coded passwords and use environment variables or secure config before production.
 6. Open the site:
-   - User: http://localhost/<your-folder>/index.php  
-   - Admin: http://localhost/<your-folder>/admin/index.php
+   http://localhost/food-delivery-website/
