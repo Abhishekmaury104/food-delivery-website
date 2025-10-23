@@ -1,0 +1,130 @@
+body {
+    background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .button1 {
+    background-color: white; 
+    color: black;
+    border: 2px solid #4CAF50;
+} */
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #eee;
+    background: none;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    height: 500px;
+    width: 500px;
+    /* position: relative; */
+    margin-left: 2%;
+
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+.shop-content{
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.btn{
+    border: none;
+    display: block;
+    padding-top: 0px;
+    margin: 0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    background:black;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .btn1 {
+    border: none;
+    display: block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: 160px;
+    background-color: aqua;
+    height: 36px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    /* transition: all 0.1s; */
+    /* transition: height 0.1s,width 0.01s; */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn1:hover,
+  .btn1:focus {
+    width: 300px;
+    height: 40px;
+    background-color:#ff7b25;
+    /* padding: 12px 22px; */
+  }
+  
+  .btn1:hover span,
+  .btn1:focus span {
+    display: inline;
+  }
+  
+/* .btn1:hover{
+  background: black;
+  color: white;
+} */
+.btn:hover{
+   background: white;
+   color: #000;
+}
+
+
+
+
+
+
