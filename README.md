@@ -42,5 +42,4 @@ https://github.com/Abhishekmaury104/food-delivery-website.git
    - Update SMTP credentials in [floating-login-signup/partials/signUp.php](floating-login-signup/partials/signUp.php). It currently uses included PHPMailer files ([phpmailer1/PHPMailer.php](phpmailer1/PHPMailer.php)).
    - Remove hard-coded passwords and use environment variables or secure config before production.
 6. Open the site:
-   - User: http://localhost/<your-folder>/index.php  
-   - Admin: http://localhost/<your-folder>/admin/index.php
+   http://localhost/food-delivery-website/
